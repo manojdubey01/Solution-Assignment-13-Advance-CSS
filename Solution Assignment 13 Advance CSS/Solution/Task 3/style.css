@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+.loader{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 6px solid blueviolet;
+    border-left-color: grey;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(380deg);
+    }    
+}
